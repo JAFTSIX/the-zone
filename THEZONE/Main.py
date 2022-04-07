@@ -5,9 +5,7 @@ import os
 import glob
 import paths
 
-#camino='pp/rest'
-#os.makedirs(camino,exist_ok=True)
-#shutil.copytree('ENV/',camino)         
+
 
 projectName= input('insert the name of the project: ')
 projectNameFile=projectName+'.jpr'
