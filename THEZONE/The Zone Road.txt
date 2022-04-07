@@ -1,0 +1,2 @@
+buscar archivos  en A y  copiarlos en B
+buscar archivos    
