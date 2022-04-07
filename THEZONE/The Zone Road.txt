@@ -1,2 +1,11 @@
-buscar archivos  en A y  copiarlos en B
-buscar archivos    
+Medium:buscar archivos  en A y  copiarlos en B
+  buscar folders *
+  crea la particion *
+  usa la ruta y pasalos a la ruta env
+
+
+
+test examples
+CallNotificacionGEPAAjusteABCS
+
+C:\\Users\\Soin\\Documents\\Repository\\AIA11G\\composites\\AABC_Custom\\CallNotificacionGEPAAjusteABCS\\CallNotificacionGEPAAjusteABCS.jpr
