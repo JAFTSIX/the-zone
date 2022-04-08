@@ -7,11 +7,19 @@ Medium:buscar archivos  en A y  copiarlos en B
 hacer lo de los ORAMDS
   use search and replace 
   put it on the txt
-  open the file and read it completely
-  Look out for this start <oramds:/apps>/AIAMetaData/AIAComponents
-  erase the repeated ones
+  code ezample:
+    for n lines 
+      if find <oramds:/apps>/AIAMetaData/AIAComponents
+        copy everithin inside ""
+        save it in an dictionary so it does not create duplicates
+
   list the files
-     
+  access the server
+  go to this  direction
+  /SOA/Oracle/AIA/comms_home/source/soainfra/apps/AIAMetaData
+  and find the ones that exist
+  if it exist set it on 1 in the mdslocations   
+
 
 *
 
