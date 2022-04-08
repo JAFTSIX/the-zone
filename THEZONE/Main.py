@@ -5,8 +5,6 @@ import os
 import glob
 import paths
 
-
-
 projectName= input('insert the name of the project: ')
 projectNameFile=projectName+'.jpr'
 location = glob.glob( paths.repository11G+'\\**\\'+projectNameFile, recursive = True)
@@ -19,3 +17,4 @@ print(location)
 shutil.copytree(location,paths.Env+'\\'+projectName)
 os.makedirs(paths.Env+Directory,exist_ok=True)
 #print(os.path)
+input('now go and fill the search&replace txt i am waiting')

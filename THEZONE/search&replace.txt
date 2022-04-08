@@ -1,0 +1,24 @@
+Processing file : C:\Users\Soin\Documents\Code\the-zone\THEZONE\ENV\QueryFYFNumbersCRMProvABCSImpl\composite.xml
+Line   5 -     <import location="<oramds:/apps>/AIAMetaData/AIAComponents/Custom/QueryFYFNumbersCRMProvABCSImpl.wsdl"
+Line   9 -     <import location="<oramds:/apps>/AIAMetaData/AIAComponents/InfrastructureServiceLibrary/V1/wsdls/AIAAsyncErrorHandlingBPELProcess.wsdl"
+Line  11 -     <service ui:wsdlLocation="<oramds:/apps>/AIAMetaData/AIAComponents/Custom/QueryFYFNumbersCRMProvABCSImpl.wsdl"
+Line  18 -     <property name="oracle.composite.faultPolicyFile"><oramds:/apps>/AIAMetaData/faultPolicies/fault-policy.xml</property>
+Line  19 -     <property name="oracle.composite.faultBindingFile"><oramds:/apps>/AIAMetaData/faultPolicies/fault-bindings.xml</property>
+Line  34 -                ui:wsdlLocation="<oramds:/apps>/AIAMetaData/AIAComponents/InfrastructureServiceLibrary/V1/wsdls/AIAAsyncErrorHandlingBPELProcess.wsdl">
+Found 6 occurrences.
+Processing file : C:\Users\Soin\Documents\Code\the-zone\THEZONE\ENV\QueryFYFNumbersCRMProvABCSImpl\QueryBillingAccountRef.wsdl
+Line  11 -          location="<oramds:/apps>/AIAMetaData/AIAComponents/ApplicationObjectLibrary/WBSF/ASRM/V1/wsdls/QueryBillingAccount.wsdl"/>
+Found 1 occurrences.
+Processing file : C:\Users\Soin\Documents\Code\the-zone\THEZONE\ENV\QueryFYFNumbersCRMProvABCSImpl\QueryFYFNumbersCRMProvABCSImpl.componentType
+Line   3 -     <service ui:wsdlLocation="<oramds:/apps>/AIAMetaData/AIAComponents/Custom/QueryFYFNumbersCRMProvABCSImpl.wsdl" name="client">
+Line   6 -     <reference ui:wsdlLocation="<oramds:/apps>/AIAMetaData/AIAComponents/InfrastructureServiceLibrary/V1/wsdls/AIAAsyncErrorHandlingBPELProcess.wsdl" name="AIAAsyncErrorHandlingBPELProcess">
+Found 2 occurrences.
+Processing file : C:\Users\Soin\Documents\Code\the-zone\THEZONE\ENV\QueryFYFNumbersCRMProvABCSImpl\Transformation_input_FavoriteNumber.xsl
+Line   5 -       <schema location="<oramds:/apps>/AIAMetaData/AIAComponents/Custom/QueryFYFNumbersCRMProvABCSImpl.xsd"/>
+Line  11 -       <schema location="<oramds:/apps>/AIAMetaData/AIAComponents/ApplicationObjectLibrary/WBSF/ASRM/V1/wsdls/QueryBillingAccount.wsdl"/>
+Found 2 occurrences.
+Processing file : C:\Users\Soin\Documents\Code\the-zone\THEZONE\ENV\QueryFYFNumbersCRMProvABCSImpl\Transform_Output_QueryFavoriteNumbers.xsl
+Line   5 -       <schema location="<oramds:/apps>/AIAMetaData/AIAComponents/ApplicationObjectLibrary/WBSF/ASRM/V1/wsdls/QueryBillingAccount.wsdl"/>
+Line  11 -       <schema location="<oramds:/apps>/AIAMetaData/AIAComponents/Custom/QueryFYFNumbersCRMProvABCSImpl.xsd"/>
+Found 2 occurrences.
+Searched 65 file(s), found 13 occurrences in 5 file(s)

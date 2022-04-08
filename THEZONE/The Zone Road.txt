@@ -2,9 +2,21 @@ Medium:buscar archivos  en A y  copiarlos en B
   buscar folders *
   crea la particion *
   usa la ruta y pasalos a la ruta env
+*
+
+hacer lo de los ORAMDS
+  use search and replace 
+  put it on the txt
+  open the file and read it completely
+  Look out for this start <oramds:/apps>/AIAMetaData/AIAComponents
+  erase the repeated ones
+  list the files
+     
+
+*
 
 
-
+add it colors
 test examples
 CallNotificacionGEPAAjusteABCS
 
