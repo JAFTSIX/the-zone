@@ -24,8 +24,10 @@ def search():
     isOnTheServer(mdslocations)
     for location in mdslocations:
         if mdslocations[location]==False:
-            print(location)
+            #print(location)
             ##here i shoul copy them to ENV
+            print(paths.EnvMDS+location)
+            os.makedirs(paths.EnvMDS+location,exist_ok=True)
             shutil.copy(paths.repositoryOramds+location,paths.EnvMDS+location,)
 
     return mdslocations

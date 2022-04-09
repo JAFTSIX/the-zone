@@ -1,0 +1,36 @@
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+        targetNamespace="http://xmlns.oracle.com/QueryFYFNumbersCRMProvABCSImpl"
+        xmlns:ns1="http://xmlns.oracle.com/QueryFYFNumbersCRMProvABCSImpl"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+ <element name="QueryFYFNumbersCRMProvABCSImplProcessRequest">
+  <complexType>
+   <sequence>
+    <element name="NumeroServicio" type="string" minOccurs="0"/>
+   </sequence>
+  </complexType>
+ </element>
+ <element name="QueryFYFNumbersCRMProvABCSImplProcessResponse">
+  <complexType>
+   <sequence>
+    <element name="ListaNumeroFavoritos" minOccurs="0" maxOccurs="unbounded">
+     <complexType>
+      <sequence>
+       <element name="Fecha" type="string" minOccurs="0"/>
+       <element name="NumeroTeléfono" type="string" minOccurs="0"/>
+       <element name="FechaExpiracion" type="string" minOccurs="0"/>
+      </sequence>
+     </complexType>
+    </element>
+    <element name="ErrorReport" type="ns1:ErrorReport" minOccurs="0"/>
+   </sequence>
+  </complexType>
+ </element>
+ <complexType name="ErrorReport">
+  <sequence>
+   <element name="ErrorCode" type="string" minOccurs="0"/>
+   <element name="ErrorDesc" type="string" minOccurs="0"/>
+  </sequence>
+ </complexType>
+</schema>
+
+
