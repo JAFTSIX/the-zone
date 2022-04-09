@@ -23,6 +23,8 @@ hacer lo de los ORAMDS
   and find the ones that exist
   if it exist set it on TRUE in the mdslocations
   
+  just focus on the ones in false
+  copy them from the 11g and create their directories
 
 *
 

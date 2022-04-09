@@ -15,10 +15,8 @@ def isOnTheServer(mdslocations):
     WsdlPath='/SOA/Oracle/AIA/comms_home/source/soainfra/apps'
     
     for  location in mdslocations :
-       #print(WsdlPath+location)
-       mdslocations[location]=snake.exists(remotepath=WsdlPath+location) 
-       #print(snake.exists(remotepath=WsdlPath+location))
-    
+        mdslocations[location]=snake.exists(remotepath=WsdlPath+location) 
+       
     snake.close()
     return mdslocations
 
