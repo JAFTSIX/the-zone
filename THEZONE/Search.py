@@ -2,6 +2,7 @@ from ast import For
 from configparser import DuplicateSectionError
 import io
 import re
+from ServerSFTP import isOnTheServer
 
 #0 means that the file needs to be on the system
 def search():
@@ -15,8 +16,8 @@ def search():
             #copy everithing inside""
             line=re.findall(f'".*?"',line)[0]
             result=re.sub('"<oramds:/apps>','',line)[:-1]
-            mdslocations[result]=0
-
+            mdslocations[result]=False
+    isOnTheServer(mdslocations)
     print(mdslocations)
 
 
